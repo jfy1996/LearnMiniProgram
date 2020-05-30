@@ -1,0 +1,86 @@
+<!--pages/wxss/wxss.wxml-->
+<!-- <include src="./header.wxml"/> -->
+
+<!-- <view class="box1"></view>
+<view class="box2"></view> -->
+
+<!-- 使用官方样式库 -->
+<!-- <view class="page" data-weui-theme="{{theme}}"> -->
+<!-- <view class="page__bd">
+		<view class="weui-search-bar {{inputShowed ? 'weui-search-bar_focusing' : ''}}" id="searchBar">
+			<form class="weui-search-bar__form">
+				<view class="weui-search-bar__box">
+					<i class="weui-icon-search"></i>
+                    <input type="text" class="weui-search-bar__input" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" />
+                    <span class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput"></span>
+				</view>
+				<label class="weui-search-bar__label" bindtap="showInput">
+					<i class="weui-icon-search"></i>
+                    <span class="weui-search-bar__text">搜索</span>
+				</label>
+			</form>
+            <view class="weui-search-bar__cancel-btn" bindtap="hideInput">取消</view>
+		</view>
+		<view class="weui-cells searchbar-result" wx:if="{{inputVal.length > 0}}">
+			<view class="weui-cell weui-cell_active weui-cell_access">
+				<view class="weui-cell__bd weui-cell_primary">
+					<view>实时搜索文本</view>
+				</view>
+			</view>
+			<view class="weui-cell weui-cell_active weui-cell_access">
+				<view class="weui-cell__bd weui-cell_primary">
+					<view>实时搜索文本</view>
+				</view>
+			</view>
+			<view class="weui-cell weui-cell_active weui-cell_access">
+				<view class="weui-cell__bd weui-cell_primary">
+					<view>实时搜索文本</view>
+				</view>
+			</view>
+			<view class="weui-cell weui-cell_active weui-cell_access">
+				<view class="weui-cell__bd weui-cell_primary">
+					<view>实时搜索文本</view>
+				</view>
+			</view>
+		</view>
+	</view> -->
+<!-- </view> -->
+
+<!-- <button bindtap="btnChange">按钮</button>
+<view class="box3 {{isActive ? 'active' : ''}}">九九归一</view> -->
+
+<!-- <view>-----------------------</view> -->
+<!-- <view hidden="{{false}}">hidden的内容</view> -->
+
+<!-- <view>-----------------------</view> -->
+<!-- <view wx:for="{{9}}" wx:key="{{index}}">{{item}}</view> -->
+
+<!-- <block wx:for="{{3}}" wx:key="index">
+	<button>按钮</button>
+	<view>视图</view>
+	<text>文字</text>
+</block> -->
+
+<!-- item/index取别名 -->
+<!-- <view wx:for="{{movies}}">{{item}}</view>
+<view>-----------------------</view>
+<view wx:for="{{movies}}" wx:for-item="movie" wx:for-index="i">{{i + ' ' + movie}}</view> -->
+
+<!-- <block wx:for="{{nums}}" wx:key="index">
+	<block wx:for="{{item}}" wx:for-item="inner_nums" wx:for-index="indey" wx:key="indey">
+		<view>{{inner_nums+ '' + index}}</view>
+	</block>
+</block> -->
+
+<!-- key的作用 -->
+<!-- <button bindtap="btn1">1</button> -->
+<!-- <view wx:for="{{['a','b','c']}}" wx:key="index">{{item + ' ' + index}}</view> -->
+<!-- <view>-----------------------</view>
+
+<template name="contentItem">
+	<button>{{btnText}}</button>
+	<view>{{content}}</view>
+</template>
+
+<template is="contentItem" data="{{btnText:'模板按钮',content:'模板内文字哈哈'}}"></template> -->
+

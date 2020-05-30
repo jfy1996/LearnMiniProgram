@@ -1,0 +1,11 @@
+<!--pages/input/input.wxml-->
+
+<input class="input"></input>
+
+<input class="input" type="text"></input>
+
+<input class="input" type="number"></input>
+
+<input class="input" type="idcard"></input>
+
+<input class="input" type="tdigitt"></input>

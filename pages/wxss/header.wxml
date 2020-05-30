@@ -1,0 +1,7 @@
+<block wx:for="{{nums}}" wx:key="index">
+	<block wx:for="{{item}}" wx:for-item="inner_nums" wx:for-index="indey" wx:key="indey">
+		<view>{{inner_nums+ '' + index}}</view>
+	</block>
+</block>
+
+<view>头部区域</view>

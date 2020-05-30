@@ -1,0 +1,23 @@
+/* pages/view/view.wxss */
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  font-size: 15px;
+}
+
+.box1{
+background-color: blue;
+font-size: 20px;
+}
+
+.box3{
+width: 200px;
+height: 200px;
+background-color: brown;
+
+}
+.box3-hover{
+background-color: burlywood;
+
+}

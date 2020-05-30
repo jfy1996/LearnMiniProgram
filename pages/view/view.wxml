@@ -1,0 +1,4 @@
+<!--pages/view/view.wxml-->
+<view class="box3" hover-class="box3-hover">
+	<view class="box" hover-class="box1" hover-stay-time="500" hover-stop-propagation>AAAA</view>
+</view>
